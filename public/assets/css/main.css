@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  list-style: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=password] {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+}
+
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  resize: none;
+  outline: none;
+}
+
+input[type=button] {
+  font-family: inherit;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+html, body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 5rem;
+  border-radius: 0.25rem;
+  background: #e0eafb;
+}
+main form label {
+  margin-top: 2rem;
+}
+main form input[type=text],
+main form input[type=email],
+main form input[type=password] {
+  min-width: 20rem;
+  padding: 0.65rem 1rem;
+  margin-top: 1rem;
+  border-radius: 0.25rem;
+  background: white;
+}
+main form input[type=button] {
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 0.25rem;
+  background: #496AA3;
+  color: #e0eafb;
+}
+main form input[type=button]:hover {
+  background: #6d88b5;
+}
+main form .errors {
+  margin-top: 1rem;
+}
+main form .errors ul li {
+  font-size: 0.75rem;
+  padding: 0.25rem 0;
+  color: orangered;
+}
+main .success div {
+  font-size: 1rem;
+  padding: 4rem;
+  border: 2px solid limegreen;
+  border-radius: 0.5rem;
+  color: limegreen;
+}
+
+/*# sourceMappingURL=main.css.map */
